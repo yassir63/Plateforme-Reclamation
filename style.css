@@ -1,0 +1,81 @@
+body {
+    background-image: url("cool-background.png");
+    background-size: 1600px;
+    background-color: #1e7756;
+    /* backdrop-filter: blur(2px); */
+    min-width: 100%;
+    min-height: 100vh;
+}
+
+
+.body1{
+    background-image: url("cool-background.png");
+    background-size: 1600px;
+    background-color: #1e7756;
+    /* backdrop-filter: blur(2px); */
+    min-width: 100%;
+    min-height: 100vh;
+}
+.body2{
+    background-image: url("cool-background.png");
+    background-color: #1e7756;
+    background-size: 1600px;
+    /* backdrop-filter: blur(2px); */
+    min-width: 100%;
+    min-height: 100vh;
+}
+.container{
+    margin-bottom: auto;
+    border-radius: 20px;
+    box-shadow: 5px 7px 0px rgb(77, 71, 71);
+}
+.container2{
+    padding: 30px;
+    margin-left: 100px;
+    max-width: 1400px;
+   
+}
+.sidenav{
+    min-width: 100px;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(39, 42, 53,0.97);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+.sidenav li{
+  padding: 20px 10px ;
+}
+.sidenav button{
+  background-color: rgba(0, 0, 0, 0.37);
+  opacity: 150%;
+  font-size: 15pt;
+  font-weight: 750;
+  color: #ffffff;
+  /* display: block; */
+  transition: 0.3s;
+  width: 100%;
+  height: 100%;
+  /* border: #f1f1f1 0.5px solid; */
+}
+.sidenav button:hover{
+    color: #6712d6;
+}
+.sidenav .closebtn{
+  padding-top: 0;
+  top: 20;
+  font-size: 20pt;
+  color: rgb(255, 255, 255);
+}
+.MW7{
+    max-width: 70%;
+}
+.MW4{
+    max-width: 40%;
+}
+#recs th:hover , td:hover , input:hover {
+    cursor: pointer ;
+}
